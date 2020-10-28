@@ -1,0 +1,16 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: azure;
+    border-radius: 10px;
+}
+.ss {
+    display: block;
+    text-align: center;
+    background: #000;
+    border-radius: 10px;
+    img {
+        max-width: 480px;
+    }
+}

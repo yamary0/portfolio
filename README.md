@@ -2,7 +2,7 @@
 
 ## 技術仕様
 
-React / Sass / CSS module 
+React / JSX / Sass / CSS module 
 
 ## 要件定義|サイトマップ
 
@@ -40,6 +40,8 @@ React / Sass / CSS module
   * 簡単なプロフィール(興味を持ってくれるような)
   * G-mail adress
 * 全体のレイアウト統一(Layout.js)
+  * HeaderとFooterとchildren
+  * 
 * 画面読み込みローディング:優先度低い
   * 簡単なやつでよい
 * inviewアニメーション
