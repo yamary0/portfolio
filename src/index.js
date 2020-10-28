@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './global.scss';
-import Header from './components/Header/Header'
-// eslint-disable-next-line
-import Work from './pages/Work/Work';
-import History from './pages/History/History'
-import Footer from './components/Footer/Footer'
+import Layout from './components/Layout'
+import History from './pages/History'
+
 
 ReactDOM.render(
-  <React.Fragment>
-    <Header />
+  <Layout>
     <History />
-    <Footer />
-  </React.Fragment>,
+  </Layout>,
   document.getElementById('root')
 );
